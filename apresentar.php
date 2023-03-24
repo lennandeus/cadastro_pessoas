@@ -8,9 +8,11 @@
         <link rel="stylesheet" href="arroz.css">
         <title>Dados</title>
     </head>
-    
     <body>
         <div class="container">
+        <?php
+            include("recortes/menu.php");
+        ?>
         <h1>Dados obtidos</h1>
         <p>O seu nome é: <?php echo $_GET["nome"] ?> </p>
         <p>Você nasceu no dia: <?php echo $_GET["data"] ?> </p>

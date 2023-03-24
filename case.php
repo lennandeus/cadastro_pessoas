@@ -10,8 +10,10 @@
     </head>
     <body>
         <div class="container">
+        <?php
+            include("recortes/menu.php");
+        ?>
     <h1>Cadastro de usuário</h1>
-    
     <form action="apresentar.php" method="GET">
         <div class="mb-3">
             <label class="form-label">Digite seu nome</label>
